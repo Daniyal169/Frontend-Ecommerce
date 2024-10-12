@@ -1,0 +1,39 @@
+.FilterBtns {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filterBtn {
+    background: linear-gradient(180deg, #3aafa9 26.71%, #def2f1 99.36%);
+    box-shadow: 0.7px 4px 10px #3aafa9;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.filterBtn:hover {
+    background: white;
+    cursor: pointer;
+    color: #3aafa9;
+}
+
+.filterBtn:active {
+    background: white;
+    cursor: pointer;
+    color: #3aafa9;
+}
+
+@media (max-width: 1024px) {
+    .FilterBtns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,460 @@
+.home {
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.homeConteiner {
+    height: 80%;
+    width: 80%;
+    background-color: #feffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0.7px 7px 15px #3aafa9;
+}
+
+.homeConteiner .left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    position: relative;
+}
+
+.homeConteiner .left :nth-child(1) {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.homeConteiner .left :nth-child(2) {
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-size: 6rem;
+    color: #3aafa9;
+    font-weight: 700;
+}
+
+.homeConteiner .left :nth-child(3) {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.homeConteiner .left :nth-child(4) {
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: -40px;
+    left: -60px;
+}
+
+
+
+.btn {
+    background: linear-gradient(180deg, #3aafa9 26.71%, #def2f1 99.36%);
+    box-shadow: 0.7px 7px 15px #3aafa9;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: white;
+    cursor: pointer;
+    color: #3aafa9;
+}
+
+.home-btn {
+    background: linear-gradient(180deg, #3aafa9 26.71%, #def2f1 99.36%);
+    box-shadow: 0.7px 7px 15px #3aafa9;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 16px !important;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.home-btn:hover {
+    background: white;
+    cursor: pointer;
+    color: #3aafa9;
+}
+
+
+.homeConteiner .right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.homeConteiner .right img {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    left: 110px;
+    top: 10;
+}
+
+/* for navbar btn */
+.nav-btn {
+    background: linear-gradient(180deg, #3aafa9 26.71%, #def2f1 99.36%);
+    box-shadow: 0.7px 7px 15px #3aafa9;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 6px 14px;
+}
+
+.nav-btn:hover {
+    background: white;
+    cursor: pointer;
+    color: #3aafa9;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+@media (max-width: 1265px) {
+    .homeConteiner .left {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 0px;
+        position: relative;
+    }
+}
+
+@media (max-width: 1150px) {
+    .homeConteiner {
+        height: 80%;
+        width: 90%;
+        background-color: #feffff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0.7px 7px 15px #3aafa9;
+    }
+}
+
+
+/* from 1020 to 850px */
+@media (max-width: 1020px) {
+    .homeConteiner {
+        height: 70%;
+        width: 85%;
+    }
+
+
+    .homeConteiner .left {
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .homeConteiner .left :nth-child(1) {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .homeConteiner .left :nth-child(2) {
+        margin-bottom: -10px;
+        margin-top: -10px;
+        font-size: 5rem;
+        color: #3aafa9;
+        font-weight: 700;
+    }
+
+    .homeConteiner .left :nth-child(3) {
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+    .home-btn {
+        background: linear-gradient(180deg, #3aafa9 26.71%, #def2f1 99.36%);
+        box-shadow: 0.7px 7px 15px #3aafa9;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 16px !important;
+        margin-top: 20px;
+        padding: 8px 16px;
+    }
+
+
+    .homeConteiner .right {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .homeConteiner .right img {
+        height: 300px;
+        width: 400px;
+        position: absolute;
+        left: 10px;
+        top: 10;
+    }
+
+
+}
+
+/* from 850 to 750px */
+@media (max-width: 850px) {
+    .homeConteiner {
+        height: 60%;
+        width: 90%;
+    }
+
+    .homeConteiner .left {
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .homeConteiner .left :nth-child(1) {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .homeConteiner .left :nth-child(2) {
+        margin-bottom: -10px;
+        margin-top: -10px;
+        font-size: 4rem;
+        color: #3aafa9;
+        font-weight: 700;
+    }
+
+    .homeConteiner .left :nth-child(3) {
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+    .home-btn {
+        background: linear-gradient(180deg, #3aafa9 26.71%, #def2f1 99.36%);
+        box-shadow: 0.7px 7px 15px #3aafa9;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 16px !important;
+        margin-top: 20px;
+        padding: 8px 16px;
+    }
+
+
+    .homeConteiner .right {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .homeConteiner .right img {
+        height: 300px;
+        width: 400px;
+        position: absolute;
+        left: 10px;
+        top: 10;
+    }
+
+    .homeConteiner .left :nth-child(4) {
+        position: absolute;
+        height: 120px;
+        width: 150px;
+        top: -40px;
+        left: 0px;
+    }
+
+
+}
+
+/* from 750 to 570px */
+@media (max-width: 750px) {
+
+    .home {
+        height: 70vh;
+    }
+
+    .homeConteiner {
+        height: 60%;
+        width: 80%;
+    }
+
+    .homeConteiner .left {
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .homeConteiner .left :nth-child(1) {
+        font-size: 1.5rem;
+    }
+
+    .homeConteiner .left :nth-child(2) {
+        font-size: 3rem;
+        color: #3aafa9;
+        font-weight: 700;
+    }
+
+    .homeConteiner .left :nth-child(3) {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .homeConteiner .left :nth-child(4) {
+        position: absolute;
+        height: 80px;
+        width: 100px;
+        top: -40px;
+        left: 0px;
+    }
+
+    .homeConteiner .right {
+        width: 30%;
+    }
+
+    .homeConteiner .right img {
+        height: 150px;
+        width: 300px;
+    }
+
+
+    .home-btn {
+        font-size: 10px !important;
+        margin-top: 20px;
+        padding: 8px 15px;
+    }
+}
+
+/* from 570 to 450px */
+@media (max-width: 570px) {
+
+    .home {
+        height: 40vh;
+    }
+
+    .homeConteiner {
+        height: 50%;
+        width: 80%;
+    }
+
+    .homeConteiner .left {
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .homeConteiner .left :nth-child(1) {
+        font-size: 1rem;
+    }
+
+    .homeConteiner .left :nth-child(2) {
+        font-size: 2rem;
+        color: #3aafa9;
+        font-weight: 700;
+    }
+
+    .homeConteiner .left :nth-child(3) {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+    .homeConteiner .left :nth-child(4) {
+        position: absolute;
+        height: 50px;
+        width: 60px;
+        top: -20px;
+        left: 0px;
+    }
+
+    .homeConteiner .right {
+        width: 30%;
+    }
+
+    .homeConteiner .right img {
+        height: 120px;
+        width: 170px;
+    }
+
+
+    .home-btn {
+        font-size: 8px !important;
+        margin-top: 20px;
+        padding: 5px 12px;
+    }
+}
+
+/* from 451 to 320px */
+@media (max-width: 451px) {
+    .home {
+        height: 30vh;
+    }
+
+    .homeConteiner {
+        height: 50%;
+        width: 80%;
+    }
+
+    .homeConteiner .left {
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .homeConteiner .left :nth-child(1) {
+        font-size: 0.9rem;
+    }
+
+    .homeConteiner .left :nth-child(2) {
+        font-size: 1.5rem;
+        color: #3aafa9;
+        font-weight: 700;
+    }
+
+    .homeConteiner .left :nth-child(3) {
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+
+    .homeConteiner .left :nth-child(4) {
+        position: absolute;
+        height: 30px;
+        width: 40px;
+        top: -20px;
+        left: 0px;
+    }
+
+    .homeConteiner .right {
+        width: 30%;
+    }
+
+    .homeConteiner .right img {
+        height: 100px;
+        width: 150px;
+    }
+
+
+    .home-btn {
+        font-size: 6px !important;
+        margin-top: 20px;
+        padding: 4px 10px;
+    }
+}

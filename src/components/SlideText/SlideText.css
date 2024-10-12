@@ -1,0 +1,27 @@
+.slideText {
+    height: 30vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideText h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #3aafa9;
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
